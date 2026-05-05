@@ -64,7 +64,19 @@
     border: 1px solid rgba(79,255,176,0.3);
     padding: 4px 10px; border-radius: 100px;
   }
+.member-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%; /* makes it circular */
+}
 
+.member-avatar {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  margin: 0 auto 10px;
+}
   /* ── SECTIONS ── */
   section { display: none; padding: 120px 0 80px; min-height: 100vh; }
   section.active { display: block; }
@@ -791,48 +803,68 @@
     <p class="section-sub">Fourth-year IT undergraduates at SLIIT, building the future of personalized learning.</p>
 
     <div class="team-grid reveal">
+
   <div class="member-card">
-    <div class="member-avatar">BI</div>
+    <div class="member-avatar">
+      <img src="images/iro.jpeg" alt="B. Iroshan">
+    </div>
     <div class="member-name">B. Iroshan</div>
     <div class="member-id">IT22901262</div>
-    <div class="member-role">Education Content Extraction &amp; Structuring Engine (ECESE) — NLP-based parser, scope filtering, teacher guide alignment</div>
+    <div class="member-role">Education Content Extraction & Structuring Engine (ECESE) — NLP-based parser, scope filtering, teacher guide alignment</div>
     <a href="mailto:IT22901262@my.sliit.lk" class="member-email">✉ IT22901262@my.sliit.lk</a>
   </div>
+
   <div class="member-card">
-    <div class="member-avatar">MA</div>
+    <div class="member-avatar">
+      <img src="images/arshad.jpeg" alt="M.N.A. Ahamed">
+    </div>
     <div class="member-name">M.N.A. Ahamed</div>
     <div class="member-id">IT22243508</div>
-    <div class="member-role">Intelligent Learning Pathway Generator (ILPG) — Adaptive path creation based on quiz performance and engagement</div>
+    <div class="member-role">Intelligent Learning Pathway Generator (ILPG)</div>
     <a href="mailto:IT22243508@my.sliit.lk" class="member-email">✉ IT22243508@my.sliit.lk</a>
   </div>
+
   <div class="member-card">
-    <div class="member-avatar">MA</div>
+    <div class="member-avatar">
+      <img src="images/ash.jpeg" alt="M.N.A. Ahmed">
+    </div>
     <div class="member-name">M.N.A. Ahmed</div>
     <div class="member-id">IT22920386</div>
-    <div class="member-role">Micro-Learning via Daily Challenges (MLDC) — Quiz generation, daily challenge scheduler, comparative evaluation</div>
+    <div class="member-role">Micro-Learning via Daily Challenges (MLDC)</div>
     <a href="mailto:IT22920386@my.sliit.lk" class="member-email">✉ IT22920386@my.sliit.lk</a>
   </div>
+
   <div class="member-card">
-    <div class="member-avatar">WW</div>
+    <div class="member-avatar">
+      <img src="images/saranga.jpeg" alt="W.M.P.S. Weerasekara">
+    </div>
     <div class="member-name">W.M.P.S. Weerasekara</div>
     <div class="member-id">IT22215406</div>
-    <div class="member-role">Progress Monitoring &amp; Streak Analytics System (PMSAS) — Engagement tracking, dashboards, streak analytics</div>
+    <div class="member-role">Progress Monitoring & Streak Analytics System (PMSAS)</div>
     <a href="mailto:IT22215406@my.sliit.lk" class="member-email">✉ IT22215406@my.sliit.lk</a>
   </div>
+
   <div class="member-card">
-    <div class="member-avatar">GW</div>
+    <div class="member-avatar">
+      <img src="images/geeth.jpeg" alt="Ms. Geethanjali Wimalarathne">
+    </div>
     <div class="member-name">Ms. Geethanjali Wimalarathne</div>
     <div class="member-id">Supervisor</div>
-    <div class="member-role">Guiding the project, providing academic oversight, and ensuring research quality</div>
+    <div class="member-role">Guiding the project</div>
     <a href="mailto:Geethanjali.w@my.sliit.lk" class="member-email">✉ geethanjali.w@my.sliit.lk</a>
   </div>
+
   <div class="member-card">
-    <div class="member-avatar">KD</div>
+    <div class="member-avatar">
+      <img src="images/kapilad.jpeg" alt="Dr. Kapila Dissanayake">
+    </div>
     <div class="member-name">Dr. Kapila Dissanayake</div>
     <div class="member-id">Co-Supervisor</div>
-    <div class="member-role">Providing technical guidance and research direction throughout the project</div>
+    <div class="member-role">Technical guidance</div>
     <a href="mailto:kapila.d@my.sliit.lk" class="member-email">✉ kapila.d@my.sliit.lk</a>
   </div>
+
+</div>
 </div>
   </div>
 </section>
